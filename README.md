@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto para estudar flexbox e animation rotate.
+Projeto para estudar flexbox e animation rotate. Esse projeto foi inspirado no video do canal [Willian Justem Cursos](https://www.youtube.com/watch?v=j3rOA1spG8A).
 
 ## 🚀 Como Rodar
 
