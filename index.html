@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spinner Loader - CSS puro </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="spinner" id="esquerda"></div>
+        <button class="button" onclick="mudarTransforme('esquerda')">Rodar a direita</button>
+        <button class="button" onclick="pause('esquerda')">Parar</button>
+    </div>
+    <div class="content">
+        <div class="spinner" id="direita"></div>
+        <button class="button" onclick="mudarTransforme('direita')">Rodar a esquerda</button>
+        <button class="button" onclick="pause('direita')">Parar</button>
+    </div>
+    <div class="content">
+        <div class="spinner" id="eixoY"></div>
+        <button class="button" onclick="mudarTransforme('eixoY')">Rodar Eixo X</button>
+        <button class="button" onclick="pause('eixoY')">Parar</button>
+    </div>
+    <div class="content">
+        <div class="spinner" id="eixoX"></div>
+        <button class="button" onclick="mudarTransforme('eixoX')">Rodar Eito Y</button>
+        <button class="button" onclick="pause('eixoX')">Parar</button>
+    </div>
+
+</body>
+<script>
+    function mudarTransforme(tipo, inverter=false){
+        if(tipo == 'direita'){
+            document.getElementById(tipo).style.animation = 'spin-right 1s linear infinite';
+        }
+
+        if(tipo == 'esquerda'){
+            document.getElementById(tipo).style.animation = 'spin-letf 1s linear infinite';
+        }
+
+        if(tipo == 'eixoY'){
+            document.getElementById(tipo).style.animation = 'spin-eixoY 1s linear infinite';
+        }
+
+        if(tipo == 'eixoX'){
+            document.getElementById(tipo).style.animation = 'spin-eixoX 1s linear infinite';
+        }
+
+    }
+
+    function pause(tipo){
+        document.getElementById(tipo).style.animation = 'paused';
+    }
+</script>
+</html>

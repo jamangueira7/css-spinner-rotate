@@ -1,0 +1,67 @@
+body{
+    background: #dff9fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: white 1px solid;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.button {
+    background-color: #4CAF50;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:focus {
+    display:block;
+    outline:none;
+}
+
+
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, .1);
+    border-left-color: #22a6b3;
+    height: 60px;
+    width: 60px;
+
+    border-radius: 50%;
+}
+
+
+@keyframes spin-right {
+    to { transform: rotate(360deg)}
+}
+
+@keyframes spin-letf {
+    to { transform: rotate(-360deg)}
+}
+
+@keyframes spin-eixoX {
+    to { transform: rotateX(360deg)}
+}
+
+@keyframes spin-eixoY {
+    to { transform: rotateY(360deg)}
+}
