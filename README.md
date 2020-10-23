@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 💻 Projeto
 
@@ -31,10 +31,11 @@ Projeto para estudar flexbox e animation rotate.
 
 Esse projeto foi inspirado no video do canal [Willian Justem Cursos](https://www.youtube.com/watch?v=j3rOA1spG8A).
 
+
 ## 🚀 Como Rodar
 
 - Clone o projeto.
-- Abra no navegador.
+- Execute diretamente no browser.
 
 ## 🤔 Como contribuir
 
